@@ -15,7 +15,7 @@ struct Menu: View {
     var body: some View {
         VStack(spacing: 0) {
             Header()
-            HeroSection()
+            HeroSection(searchText: $searchText)
             MenuBreakdownComponent()
             FetchedObjects(
                 /*
@@ -32,8 +32,10 @@ struct Menu: View {
                                 }
                         }
                     }
+                    .searchable(text: $searchText)
                     .listStyle(.inset)
                     .padding(.leading, -6)
+                    
                 }
         }
         .alert("Order placed, thanks!", isPresented: $showAlert) {
@@ -75,7 +77,7 @@ struct Menu: View {
     }
     
     func buildSortDescriptors() -> [NSSortDescriptor] {
-        return 
+        return
             [
                 NSSortDescriptor(
                     key: "title",

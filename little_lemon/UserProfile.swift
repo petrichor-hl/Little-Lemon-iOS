@@ -69,7 +69,7 @@ struct UserProfile: View {
                         Text("Discard Changes")
                             .font(Font.system(size: 14).bold())
                             .frame(width: 130)
-                            .foregroundColor(deepGreen)
+                            .foregroundColor(Color.gray)
                     })
                     .padding(10)
                     .overlay(RoundedRectangle(cornerRadius: 8).strokeBorder(deepGreen, style: StrokeStyle(lineWidth: 1.0)))
@@ -101,7 +101,7 @@ struct UserProfile: View {
             }
             .padding([.leading, .trailing])
             .overlay(RoundedRectangle(cornerRadius: 10.0).strokeBorder(Color.gray, style: StrokeStyle(lineWidth: 1.0)))
-            .padding([.leading, .trailing, .bottom])
+            .padding([.horizontal, .bottom])
         }
     }
 }

@@ -21,7 +21,8 @@ struct MenuBreakdownComponent: View {
             }
         }
         .frame(maxWidth: .infinity)
-        .padding()
+        .padding([.horizontal, .bottom])
+        .padding(.top, 10)
     }
 }
 

@@ -20,6 +20,7 @@
 		564D866D29B9FFDC00DA2DBA /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564D866C29B9FFDC00DA2DBA /* CategoryItem.swift */; };
 		564D866F29BA108500DA2DBA /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564D866E29BA108500DA2DBA /* Header.swift */; };
 		564D867329BA208A00DA2DBA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564D867229BA208A00DA2DBA /* CustomTextField.swift */; };
+		56A1E37D29C01D1B00E070B8 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A1E37C29C01D1B00E070B8 /* SearchBar.swift */; };
 		56BFE68F29B98B9E002D0A2B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BFE68E29B98B9E002D0A2B /* Home.swift */; };
 		56BFE69329B9A6D5002D0A2B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BFE69229B9A6D5002D0A2B /* UserProfile.swift */; };
 		56BFE69629B9D219002D0A2B /* HeroSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BFE69529B9D219002D0A2B /* HeroSection.swift */; };
@@ -44,6 +45,7 @@
 		564D866C29B9FFDC00DA2DBA /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		564D866E29BA108500DA2DBA /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		564D867229BA208A00DA2DBA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		56A1E37C29C01D1B00E070B8 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		56BFE68E29B98B9E002D0A2B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		56BFE69229B9A6D5002D0A2B /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		56BFE69529B9D219002D0A2B /* HeroSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSection.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				56BFE69529B9D219002D0A2B /* HeroSection.swift */,
 				564D866E29BA108500DA2DBA /* Header.swift */,
 				563D57EE29BAF3DD006DBC84 /* DisplayDish.swift */,
+				56A1E37C29C01D1B00E070B8 /* SearchBar.swift */,
 			);
 			path = MenuScreen;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				563D57EF29BAF3DD006DBC84 /* DisplayDish.swift in Sources */,
 				564A0EA929BA4E4700F30556 /* Avatar.swift in Sources */,
 				56BFE69329B9A6D5002D0A2B /* UserProfile.swift in Sources */,
+				56A1E37D29C01D1B00E070B8 /* SearchBar.swift in Sources */,
 				56D9ECF729B9671A0029800D /* little_lemonApp.swift in Sources */,
 				564D866D29B9FFDC00DA2DBA /* CategoryItem.swift in Sources */,
 			);

@@ -26,6 +26,7 @@ struct DisplayDish: View {
                 Text(formatPrice(dish.price))
                     .monospaced()
                     .font(.callout)
+                    .foregroundColor(deepGreen)
                     .bold()
             }
             .frame(width: 200)
