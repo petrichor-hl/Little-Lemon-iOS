@@ -5,14 +5,26 @@
 </a>
 
 <p align="center">
-    Little Lemon  
-</p>
-
-<p align="center">
-    ༼ つ ｡◕‿‿◕｡ ༽つ ༼ つ ｡◕‿‿◕｡ ༽つ
+    <img src="screenshots/logo.png" width="30%"/>
 </p>
 
 <p align="center">
     <img src="https://forthebadge.com/images/badges/built-with-love.svg"/>
     <img src="https://forthebadge.com/images/badges/made-with-swift.svg"/>
+</p>
+
+## Screenshots
+
+- Register
+
+<p align="center">
+    <img src="screenshots/1.png" width="45%"/>
+</p>
+
+- TabView
+
+<p align="center">
+    <img src="screenshots/2.png" width="45%"/>
+    <img src="screenshots/3.png" width="45%"/>
+    <img src="screenshots/4.png" width="45%"/>
 </p>
