@@ -8,11 +8,6 @@
     <img src="screenshots/logo.png" width="30%"/>
 </p>
 
-<p align="center">
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg"/>
-    <img src="https://forthebadge.com/images/badges/made-with-swift.svg"/>
-</p>
-
 ## Screenshots
 
 - Register
